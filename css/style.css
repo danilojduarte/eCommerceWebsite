@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    text-decoration: none;
 }
 
 /* Declarando Cores e Estilos das Fonts Utilizadas */
@@ -103,4 +104,33 @@ section{
    grid-template-columns: repeat(2, 1fr);
    align-items: center;
    gap: 1.5rem;
+}
+.home-img img{
+    width: 100%;
+    height: auto;
+}
+.home-text h4{
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--other-color);
+}
+.home-text h1{
+    font-size: var(--big-font);
+    color: var(--text-color);
+    line-height: 1.2;
+    margin: 25px 0 45px;
+}
+.btn {
+    display: inline-block;
+    padding: 16px 30px;
+    background: var(--text-color);
+    color: var(--bg-color);
+    font-size: 15px;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    transition: all .45s ease;
+}
+.btn:hover{
+    letter-spacing: 4px;
+    opacity: 0.8;
 }
