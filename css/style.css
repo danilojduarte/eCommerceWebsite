@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,16 +7,17 @@
 }
 
 /* Declarando Cores e Estilos das Fonts Utilizadas */
-:root{
-    --bg-color:#ffffff;
-    --text-color:#0f172a;
-    --main-color:#6b7280;
-    --other-color:#334155;
-    --big-font:4.3rem;
-    --h2-font:2.2rem;
-    --p-font:1rem;
-    }
-body{
+:root {
+    --bg-color: #ffffff;
+    --text-color: #0f172a;
+    --main-color: #6b7280;
+    --other-color: #334155;
+    --big-font: 4.3rem;
+    --h2-font: 2.2rem;
+    --p-font: 1rem;
+}
+
+body {
     color: var(--text-color);
     background: var(--bg-color);
 }
@@ -36,14 +37,17 @@ header {
     border-bottom: 1px solid #f7f9fb;
     transition: all .45s ease;
 }
-.logo img{
+
+.logo img {
     width: 100%;
     height: auto;
 }
-.navbar{
+
+.navbar {
     display: flex;
 }
-.navbar a{
+
+.navbar a {
     font-size: var(--p-font);
     color: var(--other-color);
     font-weight: 400;
@@ -53,17 +57,21 @@ header {
     border-radius: 30px;
     transition: all .45s ease;
 }
-.navbar a:hover{
+
+.navbar a:hover {
     background: #f7f9fb;
 }
-.navbar a.active{
+
+.navbar a.active {
     background: #f7f9fb;
 }
-.icons{
+
+.icons {
     display: flex;
     align-items: center;
 }
-.icons i{
+
+.icons i {
     height: 50px;
     width: 50px;
     background: #f7f9fb;
@@ -77,10 +85,12 @@ header {
     margin-left: 10px;
     transition: all .45s ease;
 }
-.icons i:hover{
+
+.icons i:hover {
     transform: scale(0.9);
 }
-#menu-icon{
+
+#menu-icon {
     color: var(--other-color);
     font-size: 33px;
     z-index: 10001;
@@ -90,36 +100,41 @@ header {
 
 
 /* ====================== Home ======================  */
-section{
+section {
     padding: 100px 11% 90px;
 }
-.home{
-   height: 100vh; 
-   width: 100vw;
-   background: url(../img/background.svg);
-   background-color: #e3ffe6;
-   background-size: cover;
-   position: relative;
-   display: grid;
-   grid-template-columns: repeat(2, 1fr);
-   align-items: center;
-   gap: 1.5rem;
+
+.home {
+    height: 100vh;
+    width: 100vw;
+    background: url(../img/background.svg);
+    background-color: #e3ffe6;
+    background-size: cover;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1.5rem;
 }
-.home-img img{
+
+.home-img img {
     width: 100%;
     height: auto;
 }
-.home-text h4{
+
+.home-text h4 {
     font-size: 22px;
     font-weight: 500;
     color: var(--other-color);
 }
-.home-text h1{
+
+.home-text h1 {
     font-size: var(--big-font);
     color: var(--text-color);
     line-height: 1.2;
     margin: 25px 0 45px;
 }
+
 .btn {
     display: inline-block;
     padding: 16px 30px;
@@ -130,14 +145,95 @@ section{
     border-radius: 30px;
     transition: all .45s ease;
 }
-.btn:hover{
+
+.btn:hover {
     letter-spacing: 4px;
     opacity: 0.8;
 }
-header.sticky{
+
+/* ============== Declaranção para deixar background do menu ==============  */
+header.sticky {
     background: var(--bg-color);
     padding: 14px 11%;
 }
 
-/* ====================== Conteudo 1 ======================  */
+/* ============== Declaranção para deixar background do menu ==============  */
 
+
+/* ====================== Conteudo 1 ======================  */
+.middle-text h2 {
+    font-size: var(--h2-font);
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+span {
+    color: var(--main-color);
+}
+
+.feature-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    gap: 2rem;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.row {
+    padding: 40px 30px;
+    background: #e3ffe6;
+    border-radius: 20px;
+    transition: all .45s ease;
+}
+
+.main-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.row-img img {
+    width: 170px;
+    height: auto;
+    max-width: 100%;
+}
+
+.row-text h6 {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--other-color);
+    margin-bottom: 1rem;
+}
+.row-text h3{
+    margin-bottom: 3rem;
+    font-style: 26px;
+    font-weight: 600;
+}
+.row-btn{
+    display: inline-block;
+    padding: 12px 22px;
+    background: var(--bg-color);
+    color: var(--text-color);
+    font-size: 15px;
+    border-radius: 30px;
+    transition: all .45s ease;
+}
+.row-btn:hover{
+    letter-spacing: 1px;
+    color: var(--bg-color);
+    background: var(--text-color);
+}
+.row2{
+    background: #fef2f2;
+}
+.row3{
+    background: #eff6ff;
+}
+.row:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+/* ====================== Conteudo 2 ======================  */
