@@ -134,3 +134,10 @@ section{
     letter-spacing: 4px;
     opacity: 0.8;
 }
+header.sticky{
+    background: var(--bg-color);
+    padding: 14px 11%;
+}
+
+/* ====================== Conteudo 1 ======================  */
+
