@@ -22,6 +22,9 @@ body {
     background: var(--bg-color);
 }
 
+
+
+
 /* ====================== Header ======================  */
 header {
     position: fixed;
@@ -99,6 +102,8 @@ header {
 }
 
 
+
+
 /* ====================== Home ======================  */
 section {
     padding: 100px 11% 90px;
@@ -151,6 +156,11 @@ section {
     opacity: 0.8;
 }
 
+
+
+
+
+
 /* ============== Declaranção para deixar background do menu ==============  */
 header.sticky {
     background: var(--bg-color);
@@ -158,6 +168,9 @@ header.sticky {
 }
 
 /* ============== Declaranção para deixar background do menu ==============  */
+
+
+
 
 
 /* ====================== Conteudo 1 ======================  */
@@ -236,4 +249,13 @@ span {
     cursor: pointer;
 }
 
+
+
 /* ====================== Conteudo 2 ======================  */
+.product-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 2rem;
+    align-items: center;
+    margin-top: 5rem;
+}
