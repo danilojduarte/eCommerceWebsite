@@ -400,3 +400,8 @@ span {
     letter-spacing: 1px;
     color: var(--other-color);
 }
+
+/* ====================== Reponsividade ======================  */
+@media screen {
+    
+}
