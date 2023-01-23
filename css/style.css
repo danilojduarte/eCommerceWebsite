@@ -361,3 +361,42 @@ span {
 }
 
 /* ====================== Conteudo 4 Contact ======================  */
+.contact{
+    padding: 50px 11% 40px;
+}
+.main-contact{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    gap: 2rem;
+    align-items: center;
+}
+.main-contact h5{
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+.main-contact li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+.main-contact li a{
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+    color: #374151;
+    font-weight: 400;
+    transition: all .45s ease;
+}
+.main-contact li a:hover{
+    color: var(--text-color);
+    transform: translateX(-5px);
+}
+
+/* ====================== Conteudo 5 Footer ======================  */
+
+.end-text {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: var(--other-color);
+}
