@@ -362,7 +362,7 @@ span {
 
 /* ====================== Conteudo 4 Contact ======================  */
 .contact{
-    padding: 50px 11% 40px;
+    padding: 40px 16% 60px;
 }
 .main-contact{
     display: grid;
@@ -402,6 +402,17 @@ span {
 }
 
 /* ====================== Reponsividade ======================  */
-@media screen {
-    
+@media (max-width: 1700px) {
+    header{
+        padding: 12px 3%;
+    }
+    header.sticky{
+        padding: 10px 3%;
+    }
+    section{
+        padding: 80px 3% 70px;
+    }
+    .home{
+        gap: 1rem;
+    }
 }
